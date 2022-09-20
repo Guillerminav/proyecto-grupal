@@ -1,18 +1,21 @@
 .carrusel-container {
     width: 100%;
-    max-height: 60vh;
+    min-height: 60vh;
 }
 
 .carrusel-item {
     width: 100%;
-    max-height: 60vh;
-    
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .carrusel-img {
-    width: 10px;
-    display: flex;
-    height: 60vh;
+    max-width: 90%;
+    min-height: 55vh;
     object-fit: cover;
     object-position: center;
+    margin: auto;
+    border-radius: 0.4em;
 }
