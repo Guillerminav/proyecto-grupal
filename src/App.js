@@ -1,12 +1,11 @@
 
 import './App.css';
+import ControlledCarousel from './Components/carrusel/Carrusel'
 
 function App() {
   return (
     <div className="App">
-      <p>Guille listo</p>
-      <p>Diego listo</p>
-      <p>Jona listo</p>
+      <ControlledCarousel />
     </div>
   );
 }
